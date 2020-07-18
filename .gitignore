@@ -6,6 +6,10 @@ __pycache__/
 # C extensions
 *.so
 
+Tennis*/
+unity-environment.log
+
+
 # Distribution / packaging
 .Python
 build/
