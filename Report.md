@@ -48,9 +48,6 @@ Ornstein-Uhlenbeck process provide us with the noise that is add to action for b
 | Fc3 | 128 | 1
 
 
-## Observations
-
-For this environment, the exploration is very important with the use of Noise. Training took very long time at first few days. With proper noise the agent has achieved the score with in 30 min.
 
 ## Results
 ### hyperparameter
@@ -79,10 +76,8 @@ For this environment, the exploration is very important with the use of Noise. T
 For further improvement following fields could be investigated.
 
 * Noise sampling can be improved 
-* [PPO](https://arxiv.org/pdf/1707.06347.pdf), [A3C](https://arxiv.org/pdf/1602.01783.pdf), and [D4PG](https://openreview.net/pdf?id=SyZipzbCb) can be used to check for performance improvement.
-
-
-
+* MADDPG can be used to check for performance improvement.
+* Priority Experienced Replay implementation
 
 
 ## Reference
