@@ -69,6 +69,9 @@ Ornstein-Uhlenbeck process provide us with the noise that is add to action for b
 ### Training 
 ![train result](ReportArtifacts/train.png)
 
+```Environment solved in 928 episodes!	Average Score: 0.50```
+
+
 ### Evaluation 
 ![eval result](ReportArtifacts/eval.png)
 
